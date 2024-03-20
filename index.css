@@ -1,0 +1,798 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1728px;
+  height: 6754px;
+  margin: 0 auto;
+  background: #f4f8fb;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1728px;
+  height: 113px;
+  margin: 0 0 0 0;
+  background: #f4f8fb;
+}
+.chrimbur {
+  position: absolute;
+  width: 206px;
+  height: 76px;
+  top: 18px;
+  left: 51px;
+  font-family: Baloo, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 75.552px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 15;
+}
+.chr {
+  position: relative;
+  color: #000000;
+  font-family: Baloo, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 75.552px;
+  text-align: left;
+}
+.i {
+  position: relative;
+  color: #2257c3;
+  font-family: Baloo, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 75.552px;
+  text-align: left;
+}
+.chr-1 {
+  position: relative;
+  color: #000000;
+  font-family: Baloo, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 75.552px;
+  text-align: left;
+}
+.ellipse {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 38px;
+  left: 1599px;
+  background: url(./assets/images/c66d5168-78cb-439d-8108-b5bb8250822e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+  border-radius: 50%;
+}
+.ellipse-2 {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 38px;
+  left: 1642px;
+  background: url(./assets/images/602c6ef3-4bcd-4536-af53-14cd49de64e4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 18;
+  border-radius: 50%;
+}
+.rectangle-3 {
+  position: relative;
+  width: 558px;
+  height: 98px;
+  margin: 549px 0 0 585px;
+  background: url(./assets/images/a8b91491-5878-4ba0-9c5f-6a788ee5e52f.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 3;
+}
+.ellipse-4 {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 13px;
+  left: 373px;
+  background: url(./assets/images/45da7b02-9e2f-4344-b626-430ddf7bb2fd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 50%;
+}
+.buy-now {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 384px;
+  height: 69.689px;
+  top: 19.422px;
+  left: 87px;
+  color: #ffffff;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.rectangle-5 {
+  position: relative;
+  width: 917px;
+  height: 1166px;
+  margin: 78px 0 0 404px;
+  background: #153473;
+  z-index: 10;
+  overflow: visible auto;
+  border-radius: 60px;
+}
+.flex-row-c {
+  position: relative;
+  width: 829px;
+  height: 80px;
+  margin: 72px 0 0 47px;
+  z-index: 31;
+}
+.ellipse-6 {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 0;
+  left: 777px;
+  background: url(./assets/images/a8765676-061f-4be6-94b8-01f59411083a.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+  border-radius: 50%;
+}
+.why-choose-optelemt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 825px;
+  height: 78px;
+  top: 2px;
+  left: 0;
+  color: #ffffff;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 31;
+}
+.optelemt-nutrition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 818px;
+  height: 210px;
+  margin: 40px 0 0 58px;
+  color: #ffffff;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 69.504px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 13;
+  overflow: hidden;
+}
+.optelemt-ingredients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 781px;
+  height: 702px;
+  margin: 25px 0 0 70px;
+  color: #ffffff;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 78.192px;
+  text-align: left;
+  z-index: 11;
+}
+.flex-row-ea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 917px;
+  height: 447px;
+  margin: 81px 0 0 404px;
+  z-index: 22;
+}
+.rectangle-7 {
+  flex-shrink: 0;
+  position: relative;
+  width: 447px;
+  height: 447px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 22;
+  border-radius: 30px;
+}
+.rectangle-8 {
+  flex-shrink: 0;
+  position: relative;
+  width: 447px;
+  height: 447px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 21;
+  border-radius: 30px;
+}
+.flex-row-b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 917px;
+  height: 447px;
+  margin: 24px 0 0 404px;
+  z-index: 23;
+}
+.rectangle-9 {
+  flex-shrink: 0;
+  position: relative;
+  width: 447px;
+  height: 447px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 20;
+  border-radius: 30px;
+}
+.rectangle-a {
+  flex-shrink: 0;
+  position: relative;
+  width: 447px;
+  height: 447px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 23;
+  border-radius: 30px;
+}
+.rectangle-b {
+  position: relative;
+  width: 917px;
+  height: 1005px;
+  margin: 81px 0 0 404px;
+  background: #153473;
+  z-index: 26;
+  overflow: visible auto;
+  border-radius: 60px;
+}
+.flex-row-c-c {
+  position: relative;
+  width: 764px;
+  height: 156px;
+  margin: 72px 0 0 86px;
+  z-index: 29;
+}
+.fucoidan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 748px;
+  height: 156px;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 29;
+  overflow: hidden;
+}
+.ellipse-d {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 0;
+  left: 712px;
+  background: url(./assets/images/eb1d0701-0509-479b-aa7b-4c81b7cb7fa6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 27;
+  border-radius: 50%;
+}
+.fucoidan-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 828px;
+  height: 280px;
+  margin: 40px 0 0 46px;
+  color: #ffffff;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 69.504px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 30;
+  overflow: hidden;
+}
+.fucoidan-benefits {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 680px;
+  height: 390px;
+  margin: 25px 0 0 56px;
+  color: #ffffff;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 78.192px;
+  text-align: left;
+  z-index: 28;
+}
+.flex-row-cc {
+  position: relative;
+  width: 21984px;
+  height: 1724px;
+  margin: 81px 0 0 84px;
+  z-index: 39;
+}
+.rectangle-e {
+  position: absolute;
+  width: 917px;
+  height: 1724px;
+  top: 0;
+  left: 50%;
+  background: #fafaf8;
+  transform: translate(-1163.79%, 0);
+  z-index: 33;
+  border-radius: 60px;
+}
+.flex-row-bff {
+  position: relative;
+  width: 728px;
+  height: 156px;
+  margin: 55px 0 0 100px;
+  z-index: 35;
+}
+.important-questions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 719px;
+  height: 156px;
+  top: 0;
+  left: calc(50% - 364px);
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 78px;
+  font-weight: 400;
+  line-height: 78px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 35;
+  overflow: hidden;
+}
+.ellipse-f {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 0;
+  left: 676px;
+  background: url(./assets/images/2a3f94c3-a23c-4c1b-b20f-e360bbd7807e.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 34;
+  border-radius: 50%;
+}
+.optelemt-formulation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 681px;
+  height: 40px;
+  margin: 123px 0 0 56px;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 44;
+}
+.optelemt-formulation-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 795px;
+  height: 464px;
+  margin: 40px 0 0 63px;
+  color: #000000;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 57.92px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 36;
+  overflow: hidden;
+}
+.optelemt-nutrients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 718px;
+  height: 40px;
+  margin: 116px 0 0 58px;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 40;
+}
+.optelemt-nutrients-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 825px;
+  height: 240px;
+  margin: 40px 0 0 48px;
+  color: #000000;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 41;
+  overflow: hidden;
+}
+.optelemt-suitable-for {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 542px;
+  height: 40px;
+  margin: 116px 0 0 58px;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 42;
+}
+.post-operative-patients {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 825px;
+  height: 120px;
+  margin: 40px 0 0 48px;
+  color: #000000;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  text-overflow: initial;
+  z-index: 43;
+  overflow: hidden;
+}
+.line {
+  position: absolute;
+  width: 1040px;
+  height: 1px;
+  top: 275px;
+  left: 50%;
+  background: url(./assets/images/43750e3c-b3d6-45fc-8132-ba81f3491eb4.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-1031.92%, 0);
+  z-index: 37;
+}
+.line-10 {
+  position: absolute;
+  width: 1040px;
+  height: 1px;
+  top: 935px;
+  left: 50%;
+  background: url(./assets/images/3f8d9939-d5fc-4ef4-bb9f-16b3a934c847.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-1031.92%, 0);
+  z-index: 38;
+}
+.formulation {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 21984px;
+  height: 37px;
+  top: 1024px;
+  left: 0;
+  color: #000000;
+  font-family: Dongle, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 24;
+}
+.line-11 {
+  position: absolute;
+  width: 1040px;
+  height: 1px;
+  top: 1371px;
+  left: 50%;
+  background: url(./assets/images/d2333183-8348-4cf5-a6cb-47bf7a371d88.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-1031.92%, 0);
+  z-index: 39;
+}
+.optelemt-immune-nutrients {
+  position: relative;
+  width: 796px;
+  height: 192px;
+  margin: 159px 0 0 466px;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  z-index: 46;
+}
+.optel {
+  position: relative;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.e {
+  position: relative;
+  color: #d64361;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.immune-nutrients {
+  position: relative;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.rectangle-12 {
+  position: relative;
+  width: 558px;
+  height: 98px;
+  margin: 112px 0 0 584px;
+  background: url(./assets/images/176f0dc9-087d-4a0d-9e0e-db5574156f78.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+}
+.ellipse-13 {
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 11px;
+  left: 373px;
+  background: url(./assets/images/f715bd3e-b021-49e7-942a-dacc31441d9c.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+  border-radius: 50%;
+}
+.buy-now-14 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 384px;
+  height: 69.689px;
+  top: 17.422px;
+  left: 87px;
+  color: #ffffff;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 64px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 9;
+}
+.rectangle-15 {
+  position: relative;
+  width: 917px;
+  height: 127px;
+  margin: 133px 0 0 404px;
+  cursor: pointer;
+  background: #fafaf8;
+  border: none;
+  z-index: 51;
+  border-radius: 100px;
+}
+.copyright-chrimbur {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 393px;
+  height: 32px;
+  top: 48px;
+  left: 57px;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 51;
+}
+.flex-row-c-16 {
+  position: absolute;
+  height: 421.96px;
+  top: 198px;
+  right: 190.672px;
+  left: -43px;
+  z-index: 49;
+}
+.optelemt-immune-nutrients-17 {
+  position: absolute;
+  width: 796px;
+  height: 192px;
+  top: 0;
+  left: 50%;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+  text-overflow: initial;
+  white-space: nowrap;
+  transform: translate(-35.32%, 0);
+  z-index: 45;
+}
+.optel-18 {
+  position: relative;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.e-19 {
+  position: relative;
+  color: #d64361;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.mt-immune-nutrients {
+  position: relative;
+  color: #000000;
+  font-family: Baloo Bhai, var(--default-font-family);
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 96px;
+  text-align: center;
+}
+.empty {
+  position: absolute;
+  width: 298.046px;
+  height: 343.921px;
+  top: 78.04px;
+  left: 131.329px;
+  background: url(./assets/images/835ed21e-d5dc-4747-a2c5-58a1883a67ef.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 48;
+}
+.empty-1a {
+  position: absolute;
+  width: 205.811px;
+  height: 252.875px;
+  top: 143.429px;
+  left: 1372.516px;
+  background: url(./assets/images/9aafba5f-6ed5-4613-9f96-4214d0f4dcb9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 49;
+}
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 76px;
+  top: 236px;
+  left: 0;
+  color: #ffffff;
+  font-family: Baloo Bhai 2, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75.507px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.balanced-complete-nutrition {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 690px;
+  height: 177px;
+  top: 449px;
+  left: calc(50% - 346px);
+  color: #000000;
+  font-family: Baloo 2, var(--default-font-family);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 47;
+  overflow: hidden;
+}
